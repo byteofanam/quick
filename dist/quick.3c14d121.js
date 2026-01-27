@@ -727,24 +727,97 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-function App() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-        children: "Hello, React!"
-    }, void 0, false, {
+const FoodTemplate = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "restaurantCard",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: "https://imgs.search.brave.com/pBuyL8sW5UDk43BZrHvFFDWI0KITP0fimhJC3lfsLJA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9pbWFnZS1w/aG90by9taXgtZm9v/ZC1hc3NvcnRlZC10/YWJsZS0yNjBudy0y/NTAzMTkwOTk3Lmpw/Zw"
+            }, void 0, false, {
+                fileName: "script.js",
+                lineNumber: 7,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: "restaurant Name"
+            }, void 0, false, {
+                fileName: "script.js",
+                lineNumber: 8,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: "Cuisine: indian food"
+            }, void 0, false, {
+                fileName: "script.js",
+                lineNumber: 9,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                children: "Rating: 4.2"
+            }, void 0, false, {
+                fileName: "script.js",
+                lineNumber: 10,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
         fileName: "script.js",
-        lineNumber: 5,
-        columnNumber: 10
-    }, this);
-}
-_c = App;
+        lineNumber: 6,
+        columnNumber: 9
+    }, undefined);
+};
+_c = FoodTemplate;
+const Body = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FoodTemplate, {}, void 0, false, {
+                fileName: "script.js",
+                lineNumber: 18,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FoodTemplate, {}, void 0, false, {
+                fileName: "script.js",
+                lineNumber: 19,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FoodTemplate, {}, void 0, false, {
+                fileName: "script.js",
+                lineNumber: 20,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FoodTemplate, {}, void 0, false, {
+                fileName: "script.js",
+                lineNumber: 21,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FoodTemplate, {}, void 0, false, {
+                fileName: "script.js",
+                lineNumber: 22,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FoodTemplate, {}, void 0, false, {
+                fileName: "script.js",
+                lineNumber: 23,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "script.js",
+        lineNumber: 17,
+        columnNumber: 9
+    }, undefined);
+};
+_c1 = Body;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
     fileName: "script.js",
-    lineNumber: 8,
+    lineNumber: 29,
     columnNumber: 13
 }, undefined));
-var _c;
-$RefreshReg$(_c, "App");
+var _c, _c1;
+$RefreshReg$(_c, "FoodTemplate");
+$RefreshReg$(_c1, "Body");
 
   $parcel$ReactRefreshHelpers$a0da.postlude(module);
 } finally {
