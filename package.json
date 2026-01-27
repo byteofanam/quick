@@ -1,0 +1,32 @@
+{
+  "name": "quick",
+  "version": "1.0.0",
+  "description": "a quick react revision",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byteofanam/quick.git"
+  },
+  "keywords": [
+    "you",
+    "will",
+    "do",
+    "it"
+  ],
+  "author": "anam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byteofanam/quick/issues"
+  },
+  "homepage": "https://github.com/byteofanam/quick#readme",
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  }
+}
